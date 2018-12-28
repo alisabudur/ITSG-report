@@ -1,0 +1,104 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{gomez1}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CTGJPAJG}{%
+         family={Catalina Tobon-Gomez},
+         familyi={C\bibinitperiod\bibinitdelim T\bibinithyphendelim
+  G\bibinitperiod},
+         suffix={Arjan J.\bibnamedelima Geers},
+         suffixi={A\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
+  G\bibinitperiod},
+         given={Jochen\bibnamedelima Peters},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CTGAJGJP1}
+    \strng{fullhash}{CTGAJGJP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{Benchmark for algorithms segmenting the left atrium from 3D
+  CT and MRI datasets}
+    \field{journaltitle}{IEEE Transactions on Medical Imaging}
+    \field{year}{2015}
+  \endentry
+
+  \entry{sankaranarayanan1}{article}{}
+    \name{author}{2}{}{%
+      {{hash=RSRVGK}{%
+         family={R.\bibnamedelima Sankaranarayanan},
+         familyi={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+         suffix={G.\bibnamedelima Kirkwood},
+         suffixi={G\bibinitperiod\bibinitdelim K\bibinitperiod},
+         given={R.\bibnamedelima Visweswariah},
+         giveni={R\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=FDJ}{%
+         family={Fox},
+         familyi={F\bibinitperiod},
+         given={D.\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RSGKRVFDJ1}
+    \strng{fullhash}{RSGKRVFDJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{number}{3}
+    \field{pages}{190\bibrangedash 198}
+    \field{title}{How does Chronic Atrial Fibrillation Influence Mortality in
+  the Modern Treatment Era?}
+    \field{volume}{11}
+    \field{journaltitle}{Curr Cardiol Rev}
+    \field{year}{2015}
+  \endentry
+
+  \entry{bai1}{article}{}
+    \name{author}{1}{}{%
+      {{hash=WBCLDRWS}{%
+         family={W.\bibnamedelima Bai},
+         familyi={W\bibinitperiod\bibinitdelim B\bibinitperiod},
+         suffix={W.\bibnamedelima Shi},
+         suffixi={W\bibinitperiod\bibinitdelim S\bibinitperiod},
+         given={C.\bibnamedelima Ledig D.\bibnamedelima Rueckert},
+         giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim
+  D\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WBWSCLDR1}
+    \strng{fullhash}{WBWSCLDR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{number}{1}
+    \field{pages}{98\bibrangedash 109}
+    \field{title}{Multi-atlas segmentation with augmented features for cardiac
+  MR images}
+    \field{volume}{19}
+    \field{journaltitle}{Med Image Anal.}
+    \field{year}{2015}
+  \endentry
+\enddatalist
+\endinput

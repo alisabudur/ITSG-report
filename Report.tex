@@ -1,0 +1,42 @@
+\documentclass[12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{indentfirst}
+\usepackage{geometry}
+\usepackage[backend=bibtex]{biblatex}
+\addbibresource{references.bib}
+\linespread{1}
+\geometry{lmargin=1in, rmargin=1in, top=1in}
+
+\title{\textbf{Left atrium segmentation}}
+\author{Lukacs Raul, Budur Alisa, Boitoș Roxana}
+
+\begin{document}
+\maketitle
+\setlength{\parindent}{1cm}
+
+\begin{abstract}
+
+\end{abstract}
+\tableofcontents{}
+
+\chapter{Introduction}
+\section{Motivation}
+Atrial fibrillation (AF) or arrhythmia is the most common cardiac disorder encountered in clinical practice. 2.2 million people in America and 4.5 million people in Europe are affected by either paroxysmal or persistent AF \cite{sankaranarayanan1}. 
+
+In most cases, the cause of arrhythmia are electrical reentry pathways. Ablation therapies attempt to prevent the reentry. 
+The most common ablation procedure aims to electrically isolate the pulmonary veins from the left atrium (LA) body by inducing circumferential lesions. The ablation has been guided by X-ray fluoroscopy, but in the last few years, the procedure was improved by clinical image systems like CT or MRI scans. This allows to obtain a preoperative anatomical representation of the LA.
+
+Our work focuses on designing and implementing a new system that can segment the LA from a MRI scan in order to obtain a better performance in guiding ablation procedure.
+
+\chapter{Scientific problem}
+\section{Definition}
+Segmentation of LA from MRI scans reduces, in terms of computer science, to a contour finding problem.  In this work, we focus on finding contour using a machine-learning algorithm that classifies image pixels in two classes: pixels that belong to contour or not. The input of the algorithm should be pixel position and intensity and the output should be the image containing the LA contour.
+
+\chapter{Related work}
+This paper \cite{bai1} describes a method to do left ventricular myocardium segmentation using multi-altas segmentation. In order to archive this the paper proposes two novel segmentation algorithms, PBAF and SVMAF, which incorporate gradient and contextual information into multi-atlas label fusion. The dataset used were randomly selected from the DETERMINE (Defibrillators to Reduce Risk by Magnetic Resonance Imaging Evaluation) study the contains MR images from patients with coronary artery disease and regional wall motion abnormalities due to prior myocardial infarction. Experimental results on a short-axis cardiac MR data set of 83 subjects have demonstrated that the accuracy of multi-atlas segmentation can be significantly improved by using the augmented feature vector.
+
+This paper \cite{gomez1} presents a benchmark of current algorithms that segment the left atrium (LA) from  Computed Tomography(CT) and  Magnetic Resonance Imaging(MRI) datasets. The used datasets provide a variety of quality levels in the following proportions: 8 high contrast, 15 moderate contrast, 3 low contrast and 4 high noise datasets for CT datasets  and 9 high quality, 10 moderate quality, 6 local artefacts and 5 high noise datasets for MRI datasets. A standardization framework for left atrial surfaces was implemented  to reduce the influence of inconsistently defined regions. The ground truth and automatic segmentations were standardized. Using the framework, the boundaries of the LA were consistently identified on all datasets. The paper presents the results of  for nine algorithms for CT and eight algorithms for MRI. Results showed that algorithms combining an atlas/model based approach with a region growing approach perform best in segmenting the left atrium from CT and MRI datasets.
+
+\printbibliography
+\end{document}
