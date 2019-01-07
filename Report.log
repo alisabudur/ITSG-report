@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.25)  28 DEC 2018 13:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.25)  7 JAN 2019 23:44
 entering extended mode
 **./Report.tex
 (Report.tex
@@ -483,7 +483,11 @@ Chapter 2.
 Chapter 3.
 [4
 
-] [5
+]
+Chapter 4.
+[5
+
+] [6] [7
 
 ] (Report.aux)
 Package logreq Info: Writing requests to 'Report.run.xml'.
@@ -491,21 +495,23 @@ Package logreq Info: Writing requests to 'Report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 8400 strings out of 492970
- 152326 string characters out of 3126593
- 428250 words of memory out of 3000000
- 12216 multiletter control sequences out of 15000+200000
- 9761 words of font info for 34 fonts, out of 3000000 for 9000
+ 8413 strings out of 492970
+ 152679 string characters out of 3126593
+ 428255 words of memory out of 3000000
+ 12227 multiletter control sequences out of 15000+200000
+ 10538 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,12n,45p,1070b,1662s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/alisa/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb><C:/Users/alisa/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmr12.pfb><C:/Users/alisa/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/alisa/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Report.pdf (7 pages, 64570 bytes).
+blic/amsfonts/cm/cmcsc10.pfb><C:/Users/alisa/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/alisa/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/alisa/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/alis
+a/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on Report.pdf (9 pages, 87912 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
+ 56 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

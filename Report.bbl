@@ -20,13 +20,13 @@
   \entry{gomez1}{article}{}
     \name{author}{1}{}{%
       {{hash=CTGJPAJG}{%
-         family={Catalina Tobon-Gomez},
+         family={C.\bibnamedelima Tobon-Gomez},
          familyi={C\bibinitperiod\bibinitdelim T\bibinithyphendelim
   G\bibinitperiod},
-         suffix={Arjan J.\bibnamedelima Geers},
+         suffix={A.\bibnamedelima J.\bibnamedelima Geers},
          suffixi={A\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
   G\bibinitperiod},
-         given={Jochen\bibnamedelima Peters},
+         given={J.\bibnamedelima Peters},
          giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
       }}%
     }
@@ -72,6 +72,66 @@
     \field{volume}{11}
     \field{journaltitle}{Curr Cardiol Rev}
     \field{year}{2015}
+  \endentry
+
+  \entry{artificialIntelligenceModernApproach}{book}{}
+    \name{author}{1}{}{%
+      {{hash=SJRPN}{%
+         family={S.\bibnamedelima J.\bibnamedelima Russell},
+         familyi={S\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
+  R\bibinitperiod},
+         given={P.\bibnamedelima Norvig},
+         giveni={P\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=PH}{%
+         family={Prentice-Hall},
+         familyi={P\bibinithyphendelim H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Alan Apt}%
+    }
+    \strng{namehash}{SJRPN1}
+    \strng{fullhash}{SJRPN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{isbn}{0-13-103805-2}
+    \field{pages}{567\bibrangedash 583}
+    \field{title}{Artificial Intelligence. A Modern Approach}
+    \list{location}{1}{%
+      {Englewood Cliffs, New Jersey 07632}%
+    }
+    \field{year}{1995}
+  \endentry
+
+  \entry{annAdvantages}{article}{}
+    \name{author}{1}{}{%
+      {{hash=THMOWRLM}{%
+         family={T.\bibnamedelima Hill},
+         familyi={T\bibinitperiod\bibinitdelim H\bibinitperiod},
+         suffix={L.\bibnamedelima Marquez},
+         suffixi={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+         given={M.\bibnamedelima O'Connor W.\bibnamedelima Remus},
+         giveni={M\bibinitperiod\bibinitdelim O\bibinitperiod\bibinitdelim
+  W\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{THLMMOWR1}
+    \strng{fullhash}{THLMMOWR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{title}{Artificial neural network models for forecasting and decision
+  making}
+    \verb{url}
+    \verb http://machine-learning.martinsewell.com/ann/HMOR93.pdf
+    \endverb
+    \field{year}{1993}
   \endentry
 
   \entry{bai1}{article}{}

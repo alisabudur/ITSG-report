@@ -8,7 +8,7 @@
 \linespread{1}
 \geometry{lmargin=1in, rmargin=1in, top=1in}
 
-\title{\textbf{Left atrium segmentation}}
+\title{\textbf{Heart chambers identification}}
 \author{Lukacs Raul, Budur Alisa, Boitoș Roxana}
 
 \begin{document}
@@ -24,19 +24,38 @@
 \section{Motivation}
 Atrial fibrillation (AF) or arrhythmia is the most common cardiac disorder encountered in clinical practice. 2.2 million people in America and 4.5 million people in Europe are affected by either paroxysmal or persistent AF \cite{sankaranarayanan1}. 
 
-In most cases, the cause of arrhythmia are electrical reentry pathways. Ablation therapies attempt to prevent the reentry. 
-The most common ablation procedure aims to electrically isolate the pulmonary veins from the left atrium (LA) body by inducing circumferential lesions. The ablation has been guided by X-ray fluoroscopy, but in the last few years, the procedure was improved by clinical image systems like CT or MRI scans. This allows to obtain a preoperative anatomical representation of the LA.
-
-Our work focuses on designing and implementing a new system that can segment the LA from a MRI scan in order to obtain a better performance in guiding ablation procedure.
-
 \chapter{Scientific problem}
 \section{Definition}
-Segmentation of LA from MRI scans reduces, in terms of computer science, to a contour finding problem.  In this work, we focus on finding contour using a machine-learning algorithm that classifies image pixels in two classes: pixels that belong to contour or not. The input of the algorithm should be pixel position and intensity and the output should be the image containing the LA contour.
+The subject of this work it to build a method/application which is able to identify heart chamber from scans. A major advantage of this method/application is that it could assist a doctor in his job to make a correct decision. Also, it could be even a learning tool for medical school student. It would teach them where are the chambers in a heart scan.
+
+Identification of heart chambers from MRI scans reduces, in terms of computer science, to a classification problem. We have to classify pixels in two classes: those that belong to a heart chamber and the others.  In order to solve this, there are two steps:
+
+\begin{enumerate}
+	\item Extract the region of interest from the scan - this is an image containing only the heart, no other bones or other organs. Then, for each pixel of the image, get the color and brightness;
+	\item  Use a supervised learning algorithm to classify the pixels. Input of the algorithm is color and brightness of the pixel and output is a boolean value, \textit{true} meaning that the pixel is part of a hear chamber and  \textit{false} meaning that the pixel is not part of a heart chamber.
+\end{enumerate}
+
+This is a very interesting problem to solve because it implies a good knowledge of heart anatomy, as well as good knowledge of machine learning algorithms. 
 
 \chapter{Related work}
 This paper \cite{bai1} describes a method to do left ventricular myocardium segmentation using multi-altas segmentation. In order to archive this the paper proposes two novel segmentation algorithms, PBAF and SVMAF, which incorporate gradient and contextual information into multi-atlas label fusion. The dataset used were randomly selected from the DETERMINE (Defibrillators to Reduce Risk by Magnetic Resonance Imaging Evaluation) study the contains MR images from patients with coronary artery disease and regional wall motion abnormalities due to prior myocardial infarction. Experimental results on a short-axis cardiac MR data set of 83 subjects have demonstrated that the accuracy of multi-atlas segmentation can be significantly improved by using the augmented feature vector.
 
 This paper \cite{gomez1} presents a benchmark of current algorithms that segment the left atrium (LA) from  Computed Tomography(CT) and  Magnetic Resonance Imaging(MRI) datasets. The used datasets provide a variety of quality levels in the following proportions: 8 high contrast, 15 moderate contrast, 3 low contrast and 4 high noise datasets for CT datasets  and 9 high quality, 10 moderate quality, 6 local artefacts and 5 high noise datasets for MRI datasets. A standardization framework for left atrial surfaces was implemented  to reduce the influence of inconsistently defined regions. The ground truth and automatic segmentations were standardized. Using the framework, the boundaries of the LA were consistently identified on all datasets. The paper presents the results of  for nine algorithms for CT and eight algorithms for MRI. Results showed that algorithms combining an atlas/model based approach with a region growing approach perform best in segmenting the left atrium from CT and MRI datasets.
+
+\chapter{Proposed approach}
+
+Our approach is to use two supervised learning algorithms to solve this problem. First algorithm is an artificial neural network (ANN). We have chosen this one because it is a universal function approximators for non-linear functions \cite{annAdvantages}. Also, it is easy to use understand. Second algorithm is a support vector machine (SVM) We have chosen this one because it can provide good results being trained even with an unbalanced dataset (one class has more items than the other.)
+
+\section{Description of artificial neural network with back-propagation learning}
+ \subsection{Feed-forward artificial neural network}
+ \subsubsection{Structure}
+ An artificial neural network contains multiple nodes connected by links. Each link has an associated weight. Actually, learning is done by updating these weights. “\textit{In a layered feed-forward network, each unit is linked only to units in the next layer; there are no links between units in the same layer, no links backward to a previous layer, and no links that skip a layer}"  \cite{artificialIntelligenceModernApproach}.
+ 
+ \subsubsection{How it works}
+ Each unit performs a simple computation: it receives signals from its input links and computes a new activation level that it sends along each of its output links. The computation is split into two components. First, it computes the weighted sum of the unit's input values. Second, it applies the activation function to the wighted sum.  Usually, all units in a network use the same activation function.
+ 
+ \subsubsection{Back-propagation learning}
+ Learning in a feed-forward neural network is performed in the following way: inputs are presented to the network and it computes an output vector. Then, an error is computed  (the difference between the output and target). If the error is zero, nothing happens. Otherwise, the weights are adjusted to  reduce this error. The challenge is to divide the error among the contributing weights. The back-propagation algorithm is an approach to dividing the contribution of each weight.
 
 \printbibliography
 \end{document}
