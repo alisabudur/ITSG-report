@@ -16,32 +16,7 @@
   {}
 \endgroup
 
-\datalist[entry]{nty/global//global/global}
-  \entry{gomez1}{article}{}
-    \name{author}{1}{}{%
-      {{hash=CTGJPAJG}{%
-         family={C.\bibnamedelima Tobon-Gomez},
-         familyi={C\bibinitperiod\bibinitdelim T\bibinithyphendelim
-  G\bibinitperiod},
-         suffix={A.\bibnamedelima J.\bibnamedelima Geers},
-         suffixi={A\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
-  G\bibinitperiod},
-         given={J.\bibnamedelima Peters},
-         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{CTGAJGJP1}
-    \strng{fullhash}{CTGAJGJP1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{C}
-    \field{sortinithash}{C}
-    \field{title}{Benchmark for algorithms segmenting the left atrium from 3D
-  CT and MRI datasets}
-    \field{journaltitle}{IEEE Transactions on Medical Imaging}
-    \field{year}{2015}
-  \endentry
-
+\datalist[entry]{none/global//global/global}
   \entry{sankaranarayanan1}{article}{}
     \name{author}{2}{}{%
       {{hash=RSRVGK}{%
@@ -63,8 +38,6 @@
     \strng{fullhash}{RSGKRVFDJ1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{R}
-    \field{sortinithash}{R}
     \field{number}{3}
     \field{pages}{190\bibrangedash 198}
     \field{title}{How does Chronic Atrial Fibrillation Influence Mortality in
@@ -72,6 +45,78 @@
     \field{volume}{11}
     \field{journaltitle}{Curr Cardiol Rev}
     \field{year}{2015}
+  \endentry
+
+  \entry{bai1}{article}{}
+    \name{author}{1}{}{%
+      {{hash=WBCLDRWS}{%
+         family={W.\bibnamedelima Bai},
+         familyi={W\bibinitperiod\bibinitdelim B\bibinitperiod},
+         suffix={W.\bibnamedelima Shi},
+         suffixi={W\bibinitperiod\bibinitdelim S\bibinitperiod},
+         given={C.\bibnamedelima Ledig D.\bibnamedelima Rueckert},
+         giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim
+  D\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WBWSCLDR1}
+    \strng{fullhash}{WBWSCLDR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1}
+    \field{pages}{98\bibrangedash 109}
+    \field{title}{Multi-atlas segmentation with augmented features for cardiac
+  MR images}
+    \field{volume}{19}
+    \field{journaltitle}{Med Image Anal.}
+    \field{year}{2015}
+  \endentry
+
+  \entry{gomez1}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CTGJPAJG}{%
+         family={C.\bibnamedelima Tobon-Gomez},
+         familyi={C\bibinitperiod\bibinitdelim T\bibinithyphendelim
+  G\bibinitperiod},
+         suffix={A.\bibnamedelima J.\bibnamedelima Geers},
+         suffixi={A\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
+  G\bibinitperiod},
+         given={J.\bibnamedelima Peters},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CTGAJGJP1}
+    \strng{fullhash}{CTGAJGJP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Benchmark for algorithms segmenting the left atrium from 3D
+  CT and MRI datasets}
+    \field{journaltitle}{IEEE Transactions on Medical Imaging}
+    \field{year}{2015}
+  \endentry
+
+  \entry{annAdvantages}{article}{}
+    \name{author}{1}{}{%
+      {{hash=THMOWRLM}{%
+         family={T.\bibnamedelima Hill},
+         familyi={T\bibinitperiod\bibinitdelim H\bibinitperiod},
+         suffix={L.\bibnamedelima Marquez},
+         suffixi={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+         given={M.\bibnamedelima O'Connor W.\bibnamedelima Remus},
+         giveni={M\bibinitperiod\bibinitdelim O\bibinitperiod\bibinitdelim
+  W\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{THLMMOWR1}
+    \strng{fullhash}{THLMMOWR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Artificial neural network models for forecasting and decision
+  making}
+    \verb{url}
+    \verb http://machine-learning.martinsewell.com/ann/HMOR93.pdf
+    \endverb
+    \field{year}{1993}
   \endentry
 
   \entry{artificialIntelligenceModernApproach}{book}{}
@@ -97,8 +142,6 @@
     \strng{fullhash}{SJRPN1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
     \field{isbn}{0-13-103805-2}
     \field{pages}{567\bibrangedash 583}
     \field{title}{Artificial Intelligence. A Modern Approach}
@@ -108,56 +151,30 @@
     \field{year}{1995}
   \endentry
 
-  \entry{annAdvantages}{article}{}
+  \entry{dataSet}{article}{}
     \name{author}{1}{}{%
-      {{hash=THMOWRLM}{%
-         family={T.\bibnamedelima Hill},
-         familyi={T\bibinitperiod\bibinitdelim H\bibinitperiod},
-         suffix={L.\bibnamedelima Marquez},
-         suffixi={L\bibinitperiod\bibinitdelim M\bibinitperiod},
-         given={M.\bibnamedelima O'Connor W.\bibnamedelima Remus},
-         giveni={M\bibinitperiod\bibinitdelim O\bibinitperiod\bibinitdelim
-  W\bibinitperiod\bibinitdelim R\bibinitperiod},
+      {{hash=DPTGAPMMPGAD}{%
+         family={D.F.\bibnamedelima Pace},
+         familyi={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+         suffix={A.V.\bibnamedelima Dalca},
+         suffixi={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+         given={T.\bibnamedelima Geva A.J. Powell M.H. Moghari P.\bibnamedelima
+  Golland},
+         giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim
+  A\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim
+  M\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
+  P\bibinitperiod\bibinitdelim G\bibinitperiod},
       }}%
     }
-    \strng{namehash}{THLMMOWR1}
-    \strng{fullhash}{THLMMOWR1}
+    \strng{namehash}{DPADTGAPMMPG1}
+    \strng{fullhash}{DPADTGAPMMPG1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{T}
-    \field{sortinithash}{T}
-    \field{title}{Artificial neural network models for forecasting and decision
-  making}
-    \verb{url}
-    \verb http://machine-learning.martinsewell.com/ann/HMOR93.pdf
-    \endverb
-    \field{year}{1993}
-  \endentry
-
-  \entry{bai1}{article}{}
-    \name{author}{1}{}{%
-      {{hash=WBCLDRWS}{%
-         family={W.\bibnamedelima Bai},
-         familyi={W\bibinitperiod\bibinitdelim B\bibinitperiod},
-         suffix={W.\bibnamedelima Shi},
-         suffixi={W\bibinitperiod\bibinitdelim S\bibinitperiod},
-         given={C.\bibnamedelima Ledig D.\bibnamedelima Rueckert},
-         giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim
-  D\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{WBWSCLDR1}
-    \strng{fullhash}{WBWSCLDR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{W}
-    \field{sortinithash}{W}
-    \field{number}{1}
-    \field{pages}{98\bibrangedash 109}
-    \field{title}{Multi-atlas segmentation with augmented features for cardiac
-  MR images}
-    \field{volume}{19}
-    \field{journaltitle}{Med Image Anal.}
+    \field{pages}{80\bibrangedash 88}
+    \field{title}{Interactive whole-heart segmentation in congenital heart
+  disease}
+    \field{journaltitle}{Medical Image Computing and Computer Assisted
+  Interventions}
     \field{year}{2015}
   \endentry
 \enddatalist

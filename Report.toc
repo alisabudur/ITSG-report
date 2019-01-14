@@ -22,3 +22,13 @@
 \contentsline {subsubsection}{How it works}{5}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Back-propagation learning}{6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Application}{7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Methodology}{7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Data}{8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Results}{8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.4}Discussion}{8}
